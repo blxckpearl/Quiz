@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#timer {
+    display: none;
+}
+
+#progress {
+    display: none;
+}
+
+#score {
+    display: none;
+}
+
+#quiz {
+    display: none;
+    text-align: center;
+}
+
+#question {
+    margin: 20px 0;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#next {
+    display: none;
+}
+
+#results {
+    display: none;
+    text-align: center;
+}
+
+#results h2 {
+    margin: 20px 0;
+}
+
+#results p {
+    margin: 10px 0;
+}
+
+#results button {
+    display: block;
+    margin: 20px auto;
+}
